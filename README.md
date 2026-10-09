@@ -119,13 +119,13 @@ The estimated bill is calculated using the project's predefined billing rules.
 
 Project Structure:
 .
-├── main.py             # Menu, user input, output and workflow
-├── logic.py            # Core calculations and dispatch logic
-├── functions.py        # Supporting application functions, if retained
-├── test_cases.py       # Unit tests
-├── PRD.md              # Product Requirements Document
-├── Design_Document.md  # System design and algorithms
-└── README.md           # Project overview and instructions
+├── main.py             Menu, user input, output and workflow
+├── logic.py            Core calculations and dispatch logic
+├── functions.py        Supporting application functions, if retained
+├── test_cases.py       Unit tests
+├── PRD.md              Product Requirements Document
+├── Design_Document.md  System design and algorithms
+└── README.md           Project overview and instructions
 
 How It Is Built
 main.py connects the application workflow to the terminal menu. It accepts user input, displays results, and invokes the relevant functions.
